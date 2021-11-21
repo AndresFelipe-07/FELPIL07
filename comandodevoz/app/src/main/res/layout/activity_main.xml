@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="COMAND"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ComandoVoz"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        app:srcCompat="@mipmap/leertexto" />
+
+    <ImageButton
+        android:id="@+id/ComandoPorEscrito"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        app:srcCompat="@mipmap/botondedictar" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/fondodelapp" />
+
+
+</LinearLayout>

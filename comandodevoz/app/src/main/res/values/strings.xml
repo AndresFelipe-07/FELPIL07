@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">COMAND</string>
+    <string name="Button">COMANDO DE VOZ</string>
+    <string name="Button2"> COMANDO POR ESCRITO</string>
+</resources>
